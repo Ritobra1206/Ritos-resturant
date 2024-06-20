@@ -1,0 +1,79 @@
+.table {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: url(../CSS/table.jpg);
+}
+
+.table .sign {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: block;
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table .sign-box {
+    background-color: white;
+    max-width: 500px;
+    width: 500px;
+    border-radius: 20px;
+    padding: 35px;
+    padding-bottom: 10px;
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(32, 32, 32, 0.384);
+}
+
+.table .signup h3 {
+    text-align: left;
+}
+@media only screen and (max-width: 768px) {
+.sign-box h3 {
+    text-align: left;
+    margin-bottom: 25px;
+}
+#x-sign-mb {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.sign-box form input:last-of-type:active {
+    background-color: rgb(253, 99, 38);
+}
+}
+@media only screen and (max-width: 550px) {
+#x-sign-mb{
+    margin-top: -20px;
+
+}
+.sign {
+    padding: 5vw;
+}
+.sign-box {
+    width: 80vw;
+    border-radius: 20px;
+    padding: 25px;
+    padding-bottom: 30px;
+}
+.sign-box h3 {
+    text-align: left;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.sign-box form input {
+    font-size: 12px;
+}
+.sign-box .signin form input:last-of-type {
+    margin-top: 15px;
+}
+.sign-box form label {
+    font-size: 14px;
+}
+
+}
